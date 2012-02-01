@@ -1,3 +1,13 @@
+CHANGES IN VERSION 1.2.1
+-------------------------
+ o added citation <2012-01-29 Sun>
+ o speeded up writeMgfData <2012-01-29 Sun>
+ o added a gc() before mzR::close(msdata) <2012-01-31 Tue>
+ o fixes for ggplot2 0.9.0
+ o added importFrom(grid, ...) and import(reshape) <2012-01-30 Mon>
+ o loading reshape and grid in vignette <2012-01-31 Tue>
+ o fixed chunk 21 (label = quantitation-plot) <2012-01-31 Tue>
+
 CHANGES IN VERSION 1.1.28
 -------------------------
  o added pgfSweave to Suggests <2011-10-23 Sun>

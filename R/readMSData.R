@@ -84,6 +84,7 @@ readMSData <- function(files,
     }
     if (verbose)
       close(pb)
+    gc() ## 'fix' for Error in function (x): no function to return from, jumping to top level)...
     mzR::close(msdata)
     rm(msdata)
   }

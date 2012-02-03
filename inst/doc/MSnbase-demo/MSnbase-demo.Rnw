@@ -77,7 +77,7 @@ library("reshape")
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Introduction}\label{sec:intro} 
 
-\Rpackage{MSnbase} aims are providing a reproducible research framework to proteomics data analysis. 
+\Rpackage{MSnbase} \citep{Gatto2012} aims are providing a reproducible research framework to proteomics data analysis. 
 It should allow researcher to easily mine mass spectrometry data, explore the data and its statistical properties 
 and visually display these.
 

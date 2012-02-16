@@ -29,6 +29,11 @@ information). These should however not be of direct utility to users.
 }
 
 \references{
+  Laurent Gatto and Kathryn S. Lilley,
+  MSnbase - an R/Bioconductor package for isobaric tagged mass
+  spectrometry data visualization, processing and quantitation., 
+  Bioinformatics 28, 288-289 (2012).
+	   
   Gatto L. and Lilley K.S., Towards reproducible MSMS data
   preprocessing, quality control and quantification. BSPR/EBI Proteomics
   Meeting,  Hinxton, United Kingdom, 13-15 July 2010,

@@ -167,7 +167,7 @@ quantify.MSnExp <- function(object, method, reporters, strict, verbose) {
     .qual <- t(peakData$curveData)
   } else {
     parallel <- FALSE
-    if (require(foreach) & require(doMC)) {
+    if suppressWarnings((require(foreach) & require(doMC))) {
       registerDoMC()
       parallel <- TRUE
     }

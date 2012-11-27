@@ -1,3 +1,12 @@
+CHANGES IN VERSION 1.6.1
+------------------------
+ o Fixed issue with readIspyData with recent ispy output
+   (issue reported by Claire Mulvey) <2012-11-27 Tue> 
+
+CHANGES IN VERSION 1.6.0
+------------------------
+ o Version bump for Bioc 2.11
+
 CHANGES IN VERSION 1.5.25
 -------------------------
  o fixed bug when quantifying exp of length 1 (reported 

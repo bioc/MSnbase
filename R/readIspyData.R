@@ -10,28 +10,28 @@ readIspyData <- function(file = "ispy_results.tsv",
                          verbose = TRUE) {
   if (verbose)
     cat("Reading table\n")
-  tab <- read.csv(file, header = TRUE, sep = "\t", fill = TRUE,
-                  colClasses = c(
-                    "numeric",       # Index
-                    "factor",        # ProteinAccession 
-                    "character",     # ProteinDescription
-                    "numeric",       # ProteinQ.Value.uniquepeptidesonly.
-                    "numeric",       # ProteinType1Error.uniquepeptidesonly.
-                    "numeric",       # NumberOfUniquePeptides.FDR.1pc
-                    "character",     # PeptideSequence
-                    "numeric",       # PeptideParentProteins
-                    "character",     # MSFileID
-                    "numeric",       # PeptideType1ErrorForMSFile
-                    "factor",        # Fixed_Modifications
-                    "numeric",       # FixedModificationMassShift                    
-                    "factor",        # VariableModifications
-                    "numeric",       # VariableModificationMassShift
-                    "numeric",       # PrecursorMZ
-                    "character",     # MSScanID
-                    "character",     # DataBrowserLink ## was MascotQuery
-                    "numeric",       # PosteriorErrorProbability
-                    rep("numeric",length(reporters)),
-                    "numeric"))      # precursorrelativesignal
+  tab <- read.csv(file, header = TRUE, sep = "\t", fill = TRUE)
+                  ## colClasses = c(
+                  ##   "numeric",       # Index
+                  ##   "factor",        # ProteinAccession 
+                  ##   "character",     # ProteinDescription
+                  ##   "numeric",       # ProteinQ.Value.uniquepeptidesonly.
+                  ##   "numeric",       # ProteinType1Error.uniquepeptidesonly.
+                  ##   "numeric",       # NumberOfUniquePeptides.FDR.1pc
+                  ##   "character",     # PeptideSequence
+                  ##   "numeric",       # PeptideParentProteins
+                  ##   "character",     # MSFileID
+                  ##   "numeric",       # PeptideType1ErrorForMSFile
+                  ##   "factor",        # Fixed_Modifications
+                  ##   "numeric",       # FixedModificationMassShift                    
+                  ##   "factor",        # VariableModifications
+                  ##   "numeric",       # VariableModificationMassShift
+                  ##   "numeric",       # PrecursorMZ
+                  ##   "character",     # MSScanID
+                  ##   "character",     # DataBrowserLink ## was MascotQuery
+                  ##   "numeric",       # PosteriorErrorProbability
+                  ##   rep("numeric",length(reporters)),
+                  ##   "numeric"))      # precursorrelativesignal
   names(tab) <- gsub("\\.\\.","pc", gsub("_","",names(tab)))
   names(tab)[ncol(tab)] <- "PrecursorRelativeSignal"
   ## This column was called MascotQuery, then changed to BrowserData

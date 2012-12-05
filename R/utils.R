@@ -71,20 +71,29 @@ getBins <- function(x) {
   return(bins)
 }
 
-makeImpuritiesMatrix <- function(x) {
+makeImpuritiesMatrix <- function(x, edit = TRUE) {
   if (x==4) {
     M <- matrix(c(0.929,0.059,0.002,0.000,
                   0.020,0.923,0.056,0.001,
                   0.000,0.030,0.924,0.045,
                   0.000,0.001,0.040,0.923),
-                nrow=4)
+                nrow=4, byrow = TRUE)
+  } else if (x == 6) {
+    M <- matrix(c(0.939, 0.061, 0.000, 0.000, 0.000, 0.000,
+                  0.005, 0.928, 0.067, 0.000, 0.000, 0.000,
+                  0.000, 0.011, 0.947, 0.042, 0.000, 0.000,
+                  0.000, 0.000, 0.017, 0.942, 0.041, 0.000,
+                  0.000, 0.000, 0.000, 0.016, 0.963, 0.021,
+                  0.000, 0.000, 0.000, 0.002, 0.032, 0.938),
+                nrow = 6, byrow = TRUE)
   } else {
     M <- diag(x)
   }
   colnames(M) <- paste("reporter",1:x,sep=".")
   rownames(M) <- paste("% reporter",1:x)
-  corrfactors <- edit(M)
-  invisible(corrfactors)
+  if (edit)
+    M <- edit(M)
+  return(M)
 }
 
 utils.removePrecMz <- function(spectrum, precMz=NULL,width=2) {

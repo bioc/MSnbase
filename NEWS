@@ -1,3 +1,12 @@
+CHANGES IN VERSION 1.10.1
+-------------------------
+ o document na.rm in combineFeatures Rd <2013-10-18 Fri>
+   (same as 1.11.1)
+
+CHANGES IN VERSION 1.10.0
+-------------------------
+ o New devel version for Bioc 2.13
+
 CHANGES IN VERSION 1.9.12
 -------------------------
  o fix MSnSet -> ExpressionSet <2013-10-13 Sun>

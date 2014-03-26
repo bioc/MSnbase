@@ -1,3 +1,7 @@
+CHANGES IN VERSION 1.10.4
+-------------------------
+ o Fixed a bug in readMzTabData reported by Hendrik Weisser [2014-03-26 Wed]
+
 CHANGES IN VERSION 1.10.3
 -------------------------
  o updated makeMTD to accomodate new MS ontology [2013-12-23 Mon]

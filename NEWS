@@ -1,3 +1,12 @@
+CHANGES IN VERSION 1.12.1
+-------------------------
+ o updated readMSData test unit to ignore object@.__classVersion__
+   that fails with latest R/Bioc versions [2014-04-18 Fri]
+
+CHANGES IN VERSION 1.12.0
+-------------------------
+ o Version bump for Bio 2.14
+
 CHANGES IN VERSION 1.11.14
 --------------------------
  o update dependency to R >= 3.1 [2014-04-05 Sat] 

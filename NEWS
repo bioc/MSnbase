@@ -1,3 +1,7 @@
+CHANGES IN VERSION 1.18.1
+-------------------------
+ o Selectively import ggplot2 <2016-02-25 Thu>
+ 
 CHANGES IN VERSION 1.17.16
 --------------------------
  o new default parameter 'feature weight' in iPQF by Martina Fisher

@@ -1,3 +1,12 @@
+# MSnbase 2.4
+
+## Changes in version 2.4.1
+- Fix inverted M/Z axis in plot3D,MSmap (reported by Sylvain
+  Dechaumet, see issue #292) <2017-12-19 Tue>
+
+## Changes in version 2.4.0
+- New version for Bioc 3.6 (release)
+
 # MSnbase 2.3
 
 ## Changes in version 2.3.14

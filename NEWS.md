@@ -1,5 +1,8 @@
 # MSnbase 2.4
 
+## Changes in version 2.4.2
+- Change readMSnSet2 example <2018-01-23 Tue>  
+
 ## Changes in version 2.4.1
 - Fix inverted M/Z axis in plot3D,MSmap (reported by Sylvain
   Dechaumet, see issue [#292](https://github.com/lgatto/MSnbase/issues/292)) <2017-12-19 Tue>

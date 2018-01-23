@@ -1,3 +1,7 @@
+Changes in version 2.4.2
+------------------------
+- Change readMSnSet2 example <2018-01-23 Tue>  
+
 Changes in version 2.4.1
 ------------------------
 - Fix inverted M/Z axis in plot3D,MSmap (reported by Sylvain

@@ -1,8 +1,15 @@
 # MSnbase 2.6
 
+## Changes in version 2.6.3
+
+- Fix filterMz for spectra with no non-NA intensities in m/z range
+  (see [#355](https://github.com/lgatto/MSnbase/issues/355)). <2018-08-24 Fri>
+
 ## Changes in version 2.6.2
 
-- Fix bug in robust summary (see PR [#349](https://github.com/lgatto/MSnbase/issues/349)) (backported from devel) <2018-07-28 Sat>
+- Fix bug in robust summary (see PR
+  [#349](https://github.com/lgatto/MSnbase/issues/349)) (backported
+  from devel) <2018-07-28 Sat>
 
 ## Changes in version 2.6.1
 

@@ -1,5 +1,9 @@
 # MSnbase 2.6
 
+## Changes in version 2.6.4
+
+- Fix wrong MS OBO terms for smoothing and baseline correction 
+
 ## Changes in version 2.6.3
 
 - Fix filterMz for spectra with no non-NA intensities in m/z range

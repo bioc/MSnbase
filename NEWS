@@ -1,3 +1,11 @@
+# MSnbase 2.8
+
+Changes in version 2.8.1
+- Fix regression bug in plot,Spectrum1 <2018-11-14 Wed>
+
+Changes in version 2.8.0
+- New version for Bioc 3.8 release
+
 # MSnbase 2.7
 
 Changes in version 2.7.12
@@ -8,7 +16,7 @@ Changes in version 2.7.12
 
 
 Changes in version 2.7.11
-- Change default for `timeDomain` in `combineSpectra` and 
+- Change default for `timeDomain` in `combineSpectra` and
   `combineSpectraMovingWindow` to `FALSE` <2018-10-18 Thu>
 - Add new spectra combination function `consensusSpectrum`
   <2018-10-24 Wed>

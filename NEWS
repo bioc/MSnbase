@@ -1,10 +1,21 @@
 # MSnbase 2.8
 
-Changes in version 2.8.1
-- Fix regression bug in plot,Spectrum1 <2018-11-14 Wed>
+Changes in version 2.8.2
+- Fix problem that impute(x, method="knn") sets the seed (issue
+  #380). Contributed by
+  Constantin Ahlmann-Eltze
+  <2018-11-16 Fri>
+- Conserve spectra names in `combineSpectra` (see
+  #379) <2018-11-15 Thu>
+- Fix bug in writeMSData - see #383 <2018-11-22 Thu>
 
-Changes in version 2.8.0
-- New version for Bioc 3.8 release
+Changes in version 2.8.1
+- Add clean,Chromatograms (issue
+  #354) <2018-11-07 Wed>
+- Add as,Spectra,list as,Spectra,MSnExp and as,MSnExp,Spectra
+  (issue #370) <2018-11-07 Wed>
+- Add filterMsLevel,Spectra <2018-11-07 Wed>
+- Fix regression bug in plot,Spectrum1 <2018-11-14 Wed>
 
 # MSnbase 2.7
 
@@ -12,7 +23,9 @@ Changes in version 2.7.12
 
 - Fix warnings on windows (see
   #371) <2018-10-26 Fri>
-- Add parameter ppm to consensusSpectrum and meanMzInts (see #373 for details) <2018-10-26 Fri>
+- Add parameter ppm to consensusSpectrum and meanMzInts (see
+  #373 for details)
+  <2018-10-26 Fri>
 
 
 Changes in version 2.7.11

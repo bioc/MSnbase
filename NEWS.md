@@ -1,5 +1,8 @@
 # MSnbase 2.14
 
+## Changes in 2.14.2
+- Add MSnbase2 citation entry <2020-05-15 Fri>
+
 ## Changes in 2.14.1
 - Fix: don't read mzTab twice <2020-05-05 Tue>
 

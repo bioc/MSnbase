@@ -60,9 +60,9 @@
       The \code{\dots} arguments are passed to the internal functions.
       Currently \code{tolerance}, \code{method} and \code{relative} are
       supported.
-      You could change the \code{tolerance} (default \code{25e-6}) and
+      You could change the \code{tolerance} (default \code{0.1}) and
       decide whether this tolerance should be applied relative to the target m/z
-      (default \code{relative = TRUE}) or absolute (\code{relative = FALSE})
+      (default \code{relative = FALSE}) or absolute (\code{relative = TRUE})
       to match the theoretical fragment MZ with the MZ of the spectrum. When
       (\code{relative = TRUE}) the mass tolerance window is set to \code{target mz
       +/- (target mz * tolerance)} and \code{target mz +/- tolerance} otherwise.

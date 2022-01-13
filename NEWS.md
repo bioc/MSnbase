@@ -1,5 +1,8 @@
 # MSnbase 2.20
 
+## Changes in 2.20.4
+
+- Backport fixes
 
 ## Changes in 2.20.3
 

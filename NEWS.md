@@ -1,3 +1,13 @@
+# MSnbase 2.24
+
+## MSnbase 2.24.1
+
+- Fix remote mztab filename.
+
+## MSnbase 2.24.0
+
+- New release (Bioc 3.16)
+
 # MSnbase 2.23
 
 ## Changes in 2.23.2

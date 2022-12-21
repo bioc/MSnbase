@@ -1,5 +1,9 @@
 # MSnbase 2.24
 
+## MSnbase 2.24.2
+
+- Fix bug in descendPeaks (see [#583](https://github.com/lgatto/MSnbase/issues/583))
+
 ## MSnbase 2.24.1
 
 - Fix remote mztab filename.

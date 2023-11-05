@@ -1,13 +1,13 @@
-# MSnbase 2.29
+# MSnbase 2.28
 
-## MSnbase 2.29.1
+## MSnbase 2.28.1
 
 - Check for identical ion header in `readMgfData()` (see [issue
   597](https://github.com/lgatto/MSnbase/issues/597)).
 
-## MSnbase 2.29.0
+## MSnbase 2.28.0
 
-- New devel
+- New Bioconductor 3.18 release
 
 # MSnbase 2.27
 

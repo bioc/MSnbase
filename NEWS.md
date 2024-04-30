@@ -1,8 +1,15 @@
-# MSnbase 2.29
+# MSnbase 2.30
 
-## MSnbase 2.29.5
+## MSnbase 2.30.1
 
 - Disable nested parallel processing for `chromatogram()` method.
+- Fix Rd sytax notes.
+
+## MSnbase 2.30.0
+
+- New Bioconductor release 3.19
+
+# MSnbase 2.29
 
 ## MSnbase 2.29.4
 

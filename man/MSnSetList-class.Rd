@@ -20,6 +20,7 @@
 \alias{sapply,MSnSetList-method}
 \alias{fData,MSnSetList-method}
 \alias{fData<-,MSnSetList,DataFrame-method}
+\alias{featureData,MSnSetList-method}
 
 \title{Storing multiple related MSnSets}
 

@@ -1,19 +1,13 @@
-# MSnbase 2.39
+# MSnbase 2.38
 
-## MSnbase 2.39.4
+## MSnbase 2.38.1
 - Move more tests to longtests.
-
-## MSnbase 2.39.3
 - Use long tests.
-
-## MSnbase 2.39.2
 - Defunct deprecated functions.
-
-## MSnbase 2.39.1
 - Use `inherits()` to check class of object.
 
-## MSnbase 2.39.0
-- New devel version
+## MSnbase 2.38.0
+- New realease version (Bioc 3.23)
 
 # MSnbase 2.37
 

@@ -8,6 +8,7 @@
 
 \alias{acquisitionNum,MSnSet-method}
 \alias{exprs,MSnSet-method}
+\alias{exprs<-,MSnSet,matrix-method}
 \alias{dim,MSnSet-method}
 \alias{fileNames,MSnSet-method}
 \alias{msInfo,MSnSet-method}

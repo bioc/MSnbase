@@ -30,7 +30,7 @@ test_that("MSmap accessors", {
     expect_identical(msLevel(M), rep(1L, 75))
     expect_identical(mz(M), seq(521, 523, 0.005))
 
-    Mt <- t(M)
+    Mt <- MSnbase::t(M)
     expect_identical(msMap(M), t(msMap(Mt)))
     expect_null(show(Mt))
 })

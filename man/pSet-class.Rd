@@ -87,6 +87,7 @@
 \alias{isolationWindowUpperMz}
 \alias{isolationWindowLowerMz,pSet-method}
 \alias{isolationWindowUpperMz,pSet-method}
+\alias{featureData<-,pSet,AnnotatedDataFrame-method}
 
 \alias{spectrapply}
 \alias{spectrapply,pSet-method}
